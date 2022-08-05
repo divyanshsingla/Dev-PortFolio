@@ -19,7 +19,7 @@ const Projects = () => {
             <p>
             A Socket.io based Web app to communicate between developers in
              public channel or you can create your own room for private sessions 
-             among yourselves.
+             among yourselves.This is done in collaboration.
             </p>
             <CardButton>
               <Button
@@ -31,16 +31,16 @@ const Projects = () => {
               >
                 Github
               </Button>
-              {/* <Button
+              <Button
                 variant="contained"
                 color="primary"
-                href="https://jseditor.vercel.app/"
+                href="https://dev-chat-gamma.vercel.app/"
                 target="_blank"
                 startIcon={<VideoLabelIcon />}
                 style={{ margin: "1rem 1rem" }}
               >
                 Live Preview
-              </Button> */}
+              </Button>
             </CardButton>
           </ProjectDetail>
           <ProjectPreview>

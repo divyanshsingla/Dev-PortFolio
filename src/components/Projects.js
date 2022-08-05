@@ -15,25 +15,23 @@ const Projects = () => {
       <Zoom>
         <ProjectCard>
           <ProjectDetail>
-            <h2>JS Note Editor</h2>
+            <h2>Dev Chat</h2>
             <p>
-              JS Note Editor is an online-IDE based web app to write and run the
-              code on the go. It consists of a Live-Markdown Editor as well to
-              mark the components easily. It makes use of bundlers like ESlint
-              and webpacks to compile the code and to import libraries from
-              NPM.js directly.
+            A Socket.io based Web app to communicate between developers in
+             public channel or you can create your own room for private sessions 
+             among yourselves.
             </p>
             <CardButton>
               <Button
                 variant="contained"
                 color="primary"
-                href="https://github.com/i-priyanshu/JSNote-Editor"
+                href="https://github.com/divyanshsingla/Dev-Chat"
                 target="_blank"
                 startIcon={<GitHubIcon />}
               >
                 Github
               </Button>
-              <Button
+              {/* <Button
                 variant="contained"
                 color="primary"
                 href="https://jseditor.vercel.app/"
@@ -42,7 +40,7 @@ const Projects = () => {
                 style={{ margin: "1rem 1rem" }}
               >
                 Live Preview
-              </Button>
+              </Button> */}
             </CardButton>
           </ProjectDetail>
           <ProjectPreview>
@@ -51,7 +49,7 @@ const Projects = () => {
                 scale: 1.2,
                 transition: { duration: 1 },
               }}
-              src="https://user-images.githubusercontent.com/70953098/120121810-2ea0b680-c1c3-11eb-8933-3fa7feb0bcad.png"
+              src="https://user-images.githubusercontent.com/70953098/121433916-3a963080-c99a-11eb-8e47-3812d009d0c4.png"
               alt="project_preview"
             />
             <CardSVg>
@@ -80,17 +78,7 @@ const Projects = () => {
                 startIcon={<GitHubIcon />}
               >
                 Github
-              {/* {/* </Button>
-              {/* <Button
-                variant="contained"
-                color="primary"
-                href="https://dev-chat-by-priyanshu.herokuapp.com/"
-                target="_blank"
-                startIcon={<VideoLabelIcon />}
-                style={{ margin: "1rem 1rem" }}
-              }} */}
-                Live Preview
-              </Button>
+                </Button>
             </CardButton>
           </ProjectDetail>
           <ProjectPreview>
@@ -99,7 +87,7 @@ const Projects = () => {
                 scale: 1.2,
                 transition: { duration: 1 },
               }}
-              src="https://user-images.githubusercontent.com/70953098/121433916-3a963080-c99a-11eb-8e47-3812d009d0c4.png"
+              src="https://user-images.githubusercontent.com/98897310/183004511-7099fd3e-7816-44ef-baa5-60e2457d5ad3.png"
               alt="project_preview"
             />
             <CardSVg>
@@ -113,7 +101,7 @@ const Projects = () => {
       <Zoom>
         <ProjectCard>
           <ProjectDetail>
-            <h2>Mini YouTube</h2>
+            <h2>Mini Tube</h2>
             <p>
               A Youtube-API based Web app where you can search the video and
               from the top 5 results you can select the video to your own
@@ -123,7 +111,7 @@ const Projects = () => {
               <Button
                 variant="contained"
                 color="primary"
-                href="https://github.com/i-priyanshu/mini-youtube"
+                href="https://github.com/divyanshsingla/mini-tube"
                 target="_blank"
                 startIcon={<GitHubIcon />}
               >

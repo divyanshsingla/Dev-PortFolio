@@ -41,7 +41,7 @@ const Contact = () => {
             startIcon={<MailIcon />}
             size="large"
           >
-            mail
+            Mail
           </Button>
         </ThemeProvider>
         <Button
@@ -61,7 +61,7 @@ const Contact = () => {
           target="_blank"
           startIcon={<GitHubIcon />}
         >
-          github
+          Github
         </Button>
       </ContactButton>
     </ContactSec>
